@@ -18,6 +18,7 @@
     <modules>
         <module>FizzBuzz</module>
         <module>SortingPartitions</module>
+        <module>SubarraysSumEqualsZero</module>
     </modules>
 
     <build>
