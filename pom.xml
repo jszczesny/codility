@@ -20,6 +20,7 @@
         <module>SortingPartitions</module>
         <module>SubarraysSumEqualsZero</module>
         <module>BinaryGap</module>
+        <module>OddOccurrencesInArray</module>
     </modules>
 
     <build>
