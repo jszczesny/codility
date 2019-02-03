@@ -19,6 +19,7 @@
         <module>FizzBuzz</module>
         <module>SortingPartitions</module>
         <module>SubarraysSumEqualsZero</module>
+        <module>BinaryGap</module>
     </modules>
 
     <build>
