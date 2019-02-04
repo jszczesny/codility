@@ -23,6 +23,7 @@
         <module>OddOccurrencesInArray</module>
         <module>CyclicRotation</module>
         <module>FrogJmp</module>
+        <module>PermMissingElem</module>
     </modules>
 
     <build>
