@@ -28,8 +28,7 @@ class SolutionTest {
                 ()->assertEquals(5, solution.solution(new int[]{2,3,1,4})),
                 ()->assertEquals(1, solution.solution(new int[]{2,3,4,5})),
                 ()-> {
-                    RandomArrayObject randomArrayObject = new RandomArrayObject();
-                    randomArrayObject.generateArray(100000);
+                    RandomArrayObject randomArrayObject = new RandomArrayObject(100000);
                     assertEquals(randomArrayObject.missingValue,solution.solution(randomArrayObject.array));
                 }
 
@@ -38,23 +37,15 @@ class SolutionTest {
 
     private class RandomArrayObject{
 
-        private int[] array;
-        private int missingValue;
+        private final int[] array;
+        private final int missingValue;
 
-        public void generateArray(int size){
+        public RandomArrayObject(int size){
             List<Integer> list = IntStream.range(1, size+1).boxed().collect(Collectors.toList());
             Collections.shuffle(list);
             this.missingValue = new Random().nextInt(size+1);
             list.remove(Integer.valueOf(this.missingValue));
             this.array = list.stream().mapToInt(i->i).toArray();
-        }
-
-        public int[] getArray(){
-            return this.array;
-        }
-
-        public int getMissingValue(){
-            return this.missingValue;
         }
     }
 }
