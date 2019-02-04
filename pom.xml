@@ -22,6 +22,7 @@
         <module>BinaryGap</module>
         <module>OddOccurrencesInArray</module>
         <module>CyclicRotation</module>
+        <module>FrogJmp</module>
     </modules>
 
     <build>
