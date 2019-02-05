@@ -25,6 +25,7 @@
         <module>FrogJmp</module>
         <module>PermMissingElem</module>
         <module>TapeEquilibrium</module>
+        <module>PermCheck</module>
     </modules>
 
     <build>
