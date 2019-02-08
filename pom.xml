@@ -27,6 +27,7 @@
         <module>TapeEquilibrium</module>
         <module>PermCheck</module>
         <module>FrogRiverOne</module>
+        <module>MissingInteger</module>
     </modules>
 
     <build>
