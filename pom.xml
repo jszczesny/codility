@@ -26,6 +26,7 @@
         <module>PermMissingElem</module>
         <module>TapeEquilibrium</module>
         <module>PermCheck</module>
+        <module>FrogRiverOne</module>
     </modules>
 
     <build>
